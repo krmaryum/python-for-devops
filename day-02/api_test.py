@@ -1,4 +1,4 @@
-import requests   # this lirary we are going to use
+import requests   # this library we are going to use
 
 url = "https://jsonplaceholder.typicode.com/posts/1"
 
