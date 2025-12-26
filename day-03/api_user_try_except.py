@@ -1,6 +1,3 @@
-# try, except explanation https://chatgpt.com/share/694d4c38-b654-8002-8418-f772928c9de7
-# https://chatgpt.com/share/694d4baf-6e34-8002-80c2-a027be5d2a36
-
 import requests  # import request library
 
 user_id = input("Enter Your ID-number: ")  # getting user_id
