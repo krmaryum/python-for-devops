@@ -1,0 +1,6 @@
+fastapi    # creates FastAPI image
+uvicorn    # a lighting-fast ASGI web server implementation for Python.
+psutil
+starlette
+boto3
+datetime
