@@ -1,11 +1,10 @@
-# https://chatgpt.com/share/695f47b7-ccb8-8002-85f2-4ead53e49923
 # Takes threshold values (CPU, disk, memory) from user input
 # Also fetches system metrics using a Python library (example: psutil)
 # Compares metrics against thresholds
 # Prints the result to the terminal
 
 import psutil
-
+# https://chatgpt.com/share/695f47b7-ccb8-8002-85f2-4ead53e49923
 # Get Threshold Valus from a User
 
 cpu_threshold = float(input("Enter CPU usage threshold (%): "))
