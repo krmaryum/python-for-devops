@@ -13,11 +13,11 @@ disk_threshold = float(input("Enter disk usage threshold (%): "))
 
 # Fetch current system_metrics
 
-cpu_usage = psutil.cpu_percent(interval=1)
+cpu_usage = psutil.cpu_percent(interval=1)        # top
 print(f"Current cpu usage: {cpu_usage}")
-memory_usage = psutil.virtual_memory().percent
+memory_usage = psutil.virtual_memory().percent    # free -h
 print(f"Current memory usage: {memory_usage}")
-disk_usage = psutil.disk_usage('/').percent
+disk_usage = psutil.disk_usage('/').percent       # df
 print(f"Current disk usage: {disk_usage}")
 
 # Compare usage against threshold and print results.
