@@ -1,5 +1,3 @@
-#You will create a Python script that:
-
 #Takes threshold values (CPU, disk, memory) from user input
 #Also fetches system metrics using a Python library (example: psutil)
 #Compares metrics against thresholds
